@@ -1,0 +1,268 @@
+@font-face {
+  font-family: flexultralight;
+  src: url(fonts//EuclidFlexUltraLight.ttf);
+}
+@font-face {
+  font-family: flexlight;
+  src: url(fonts/EuclidFlexLight.ttf);
+}
+@font-face {
+  font-family: flexthin;
+  src: url(fonts/EuclidFlexThin.ttf);
+}
+@font-face {
+  font-family: flexregular;
+  src: url(fonts/EuclidFlexRegular.ttf);
+}
+@font-face {
+  font-family: flexmedium;
+  src: url(fonts/EuclidFlexMedium.ttf);
+}
+@font-face {
+  font-family: flexsemibold;
+  src: url(fonts/EuclidFlexSemiBold.ttf);
+}
+@font-face {
+  font-family: flexbold;
+  src: url(fonts/EuclidFlexBold.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+header ul {
+  display: flex;
+}
+header ul li {
+  padding: 15px;
+  list-style: none;
+}
+header ul li a {
+  color: #bababa;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: flexmedium;
+}
+header ul li span {
+  margin: 4px;
+}
+
+header .logo {
+  margin-left: 80px;
+}
+header .inscription {
+  margin-right: 80px;
+}
+.inscrire-btn {
+  margin: 15px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-family: "flexmedium";
+  cursor: pointer;
+}
+.inscrire-btn a{
+  color: #323232;
+  text-decoration: none;
+}
+.connecter-btn {
+  width: 115px;
+  height: 35px;
+  background: none;
+  border-radius: 48px;
+  border: 2.5px solid #0a66c2;
+  color: #0a66c2;
+  font-family: flexmedium;
+  cursor: pointer;
+}
+
+/*=====================
+======SECTION==========
+=====================*/
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+section .left-side {
+  margin: 80px;
+}
+section .left-side h1 {
+  font-size: 70px;
+  font-family: flexmedium;
+  color: #323232;
+}
+section .left-side h1 span {
+  color: #bababa;
+  font-family: flexregular;
+}
+section .left-side .bigtitle p {
+  font-family: flexthin;
+  font-size: 18px;
+  color: #323232;
+  margin-top: 10px;
+}
+
+section .ourclients {
+  margin-top: 30px;
+}
+section .ourclients h3 {
+  font-family: flexlight;
+  font-size: 24px;
+  color: #bababa;
+}
+section .ourclients p {
+  margin-top: 10px;
+  font-family: flexthin;
+  font-size: 16px;
+  color: #323232;
+}
+section .ourclients img {
+  margin-top: 10px;
+}
+
+.application h3 {
+  font-family: flexlight;
+  font-size: 24px;
+  color: #bababa;
+  margin-top: 30px;
+}
+.appstore-googleplay {
+  margin-top: 15px;
+}
+
+/*=====================
+======ARTICLE==========
+=====================*/
+
+article {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article h1 {
+  font-size: 50px;
+  font-family: flexmedium;
+  color: #bababa;
+}
+article h1 span {
+  color: #0a66c2;
+}
+
+.avis {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avis p {
+  margin-top: 50px;
+  font-size: 27px;
+  font-family: flexthin;
+  color: #323232;
+  text-align: center;
+}
+.avis h6 {
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: flexultralight;
+  color: #bababa;
+}
+.avis img {
+  margin-top: 25px;
+}
+.avis .breakline {
+  margin-top: 25px;
+  width: 950px;
+  height: 2px;
+  background: #bababa;
+}
+
+/*=====================
+======ARTICLE==========
+=====================*/
+
+footer {
+  width: 100%;
+  height: 350px;
+  background-color: #0a66c2;
+  margin-top: 25px;
+}
+
+footer .top-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  margin-top: 20px;
+  display: flex;
+}
+footer ul li {
+  padding: 8px;
+  list-style: none;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: flexmedium;
+}
+footer .top-side .left-side {
+  margin-top: 45px;
+  margin-left: 80px;
+}
+footer .left-side img {
+  width: 80px;
+}
+footer .top-side .left-side p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: flexregular;
+  color: #bababa;
+}
+footer .top-side .right-side {
+  margin-top: 45px;
+  margin-right: 80px;
+}
+footer .right-side h3 {
+  font-size: 16px;
+  font-family: flexregular;
+  color: #bababa;
+}
+footer .top-side .right-side img {
+  margin-top: 20px;
+}
+footer .breakline {
+  margin-top: 30px;
+  margin-left: 80px;
+  width: 87%;
+  height: 1px;
+  background-color: #bababa;
+}
+.bottom-side p {
+  font-size: 16px;
+  font-family: flexthin;
+  color: #bababa;
+}
+
+footer .bottom-side {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 90px;
+}

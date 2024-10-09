@@ -1,0 +1,132 @@
+@font-face {
+    font-family: flexultralight;
+    src: url(fonts//EuclidFlexUltraLight.ttf);
+  }
+  @font-face {
+    font-family: flexlight;
+    src: url(fonts/EuclidFlexLight.ttf);
+  }
+  @font-face {
+    font-family: flexthin;
+    src: url(fonts/EuclidFlexThin.ttf);
+  }
+  @font-face {
+    font-family: flexregular;
+    src: url(fonts/EuclidFlexRegular.ttf);
+  }
+  @font-face {
+    font-family: flexmedium;
+    src: url(fonts/EuclidFlexMedium.ttf);
+  }
+  @font-face {
+    font-family: flexsemibold;
+    src: url(fonts/EuclidFlexSemiBold.ttf);
+  }
+  @font-face {
+    font-family: flexbold;
+    src: url(fonts/EuclidFlexBold.ttf);
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*=====================
+  ======NAVBAR==========
+  =====================*/
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+  }
+  
+
+  section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-side {
+    width: 50%;
+
+    height: 550px;
+    margin-left: 40px;
+  }
+  .right-side {
+    width: 47%;
+
+    height: 550px;
+  }
+
+  .right-side img {
+    width: 100%;
+    height: 100%;
+  }
+
+  h2 {
+    font-family: 'flexsemibold';
+    color: #323232;
+}
+
+p {
+    color: #bababa;
+    font-family: 'flexlight';
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+form {
+    margin-top: 30px;
+}
+input[type="text"] {
+    height: 50px;
+    width: 280px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #0a66c2;
+    padding-left: 24px;
+    color: #323232;
+    font-size: 16px;
+    font-family: flexthin;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #bababa;
+    font-size: 16px;
+    font-family: flexthin;
+  }
+
+  textarea#message {
+    width: 80%;
+    height: 160px;
+    border-radius: 5px;
+    border: 2px solid #0a66c2;
+    color: #323232;
+    font-size: 16px;
+    font-family: flexthin;
+    padding-left: 24px;
+    padding-top: 5px;
+}
+textarea::-webkit-input-placeholder {
+  color: #bababa;
+  font-size: 16px;
+  font-family: flexthin;
+  }
+
+input[type="submit"] {
+    height: 50px;
+    width: 280px;
+    background-color: #0a66c2;
+    color: white;
+    font-family: flexthin;
+    font-size: 20px;
+    padding: 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }

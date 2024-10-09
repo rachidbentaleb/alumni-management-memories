@@ -1,0 +1,253 @@
+@font-face {
+    font-family: flexultralight;
+    src: url(fonts//EuclidFlexUltraLight.ttf);
+  }
+  @font-face {
+    font-family: flexlight;
+    src: url(fonts/EuclidFlexLight.ttf);
+  }
+  @font-face {
+    font-family: flexthin;
+    src: url(fonts/EuclidFlexThin.ttf);
+  }
+  @font-face {
+    font-family: flexregular;
+    src: url(fonts/EuclidFlexRegular.ttf);
+  }
+  @font-face {
+    font-family: flexmedium;
+    src: url(fonts/EuclidFlexMedium.ttf);
+  }
+  @font-face {
+    font-family: flexsemibold;
+    src: url(fonts/EuclidFlexSemiBold.ttf);
+  }
+  @font-face {
+    font-family: flexbold;
+    src: url(fonts/EuclidFlexBold.ttf);
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  body {
+    background-image: url(images/waves.svg); 
+    background-repeat: no-repeat;
+    background-position: 130px 0px;
+    background-size: contain;
+    display: flex;
+}
+
+/*=====================
+======HEADER===========
+=====================*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 130px;
+    height: 695px;
+    align-items: center;
+    box-shadow: -2px 4px 16px rgba(0, 0, 0, 0.29);
+    border-right: 0.5px solid #bababa;
+    position: fixed;
+}
+
+header ul li {
+    padding: 10px;
+    list-style: none;
+    padding: 10px 53px;
+}
+
+header .logout {
+    margin-bottom: 30px;
+}
+
+header .logo {
+    margin-top: 30px;
+}
+header ul li:first-child{
+    border-right: 2px solid #0a66c2;
+}
+
+/*=====================
+======SECTION==========
+=====================*/
+
+section {
+    display: flex;
+    width: 100%;
+}
+
+.left-side{
+    min-height: 650px;
+    margin-left: 210px;
+    width: 20%;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 45px;
+}
+
+.left-side h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 28px;
+    color: #323232;
+    font-family: flexsemibold;
+}
+
+.left-side .parametres{
+    margin-top: 32px;
+}
+
+.left-side .parametres a {
+    display: flex;
+    text-decoration: none;
+    color: #bababa;
+    font-family: flexregular;
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin-left: 16%;
+}
+.left-side .parametres a p{
+    margin-left: 4%;
+}
+
+.right-side{
+    min-height: 650px;
+    width: 60%;
+
+    margin-top: 45px;
+    margin-left: 5%;
+}
+
+.right-side .title {
+    margin-top: 40px;
+}
+.right-side .title h2{
+    font-size: 28px;
+    color: #323232;
+    font-family: flexsemibold;
+}
+.right-side .title {
+    font-size: 18px;
+    color: #bababa;
+    font-family: flexregular;
+}
+.right-side .photo-profile {
+    margin-top: 30px;
+}
+.right-side .breakline {
+    height: 1px;
+    background-color: #bababa;
+    width: 80%;
+}
+
+.right-side .field{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.right-side h4{
+    font-size: 18px;
+    font-family: flexsemibold;
+    color: #323232;
+}
+
+.right-side .field input#promotion {
+    margin-left: 13%;
+    width: 57%;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid #bababa;
+    padding-left: 8px;
+    color: #323232;
+    font-family: flexthin;
+    font-size: 16px;
+}
+
+.right-side .field input#filiere {
+    width: 57.5%;
+    margin-left: 17%;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid #bababa;
+    padding-left: 8px;
+    color: #323232;
+    font-family: flexthin;
+    font-size: 16px;
+}
+.right-side .field input#etablissement {
+    width: 57.5%;
+    margin-left: 9.5%;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid #bababa;
+    padding-left: 8px;
+    color: #323232;
+    font-family: flexthin;
+    font-size: 16px;
+}
+.right-side .field input#fonction {
+    width: 58%;
+    margin-left: 14%;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid #bababa;
+    padding-left: 8px;
+    color: #323232;
+    font-family: flexthin;
+    font-size: 16px;
+}
+.right-side .field input#employeur {
+    width: 58%;
+    margin-left: 12%;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid #bababa;
+    padding-left: 8px;
+    color: #323232;
+    font-family: flexthin;
+    font-size: 16px;
+}
+#firstbreakline{
+    margin-top: 30px;
+    height: 1px;
+    background-color: #bababa;
+    width: 80%;
+}
+.right-side .twobtns{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+}
+input[type="reset"] {
+    width: 110px;
+    height: 40px;
+    border-radius: 3px;
+    background: none;
+    border: 2px solid #bababa;
+    color: #bababa;
+    font-size: 18px;
+    font-family: 'flexthin';
+    cursor: pointer;
+    
+}
+input[type="Submit"] {
+    width: 110px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #0a66c2;
+    border:none;
+    color: white;
+    font-size: 18px;
+    font-family: 'flexthin';
+    margin-left: 8px;
+    cursor: pointer;
+}
