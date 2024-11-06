@@ -15,3 +15,19 @@ This is my first project as a first-year full stack developer! It is a web-based
 - **Backend**: PHP, Laravel
 - **Database**: MySQL
 - **Version Control**: Git and GitHub
+
+
+## Database Setup
+
+To set up the database for this project:
+
+1. Import the `coupainsavant.sql` file into your MySQL database using phpMyAdmin or a MySQL command line tool.
+
+- **Using phpMyAdmin**:
+  - Open phpMyAdmin.
+  - Select your database and go to the "Import" tab.
+  - Choose the `coupainsavant.sql` file and click "Go".
+
+- **Using MySQL Command Line**:
+  ```bash
+  mysql -u username -p your_database_name < coupainsavant.sql
