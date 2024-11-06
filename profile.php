@@ -11,7 +11,7 @@ if (!$_SESSION["nom"]){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="profilestyle.css">
     <title>Accueil- Coupains Avant</title>
 </head>
 <body>

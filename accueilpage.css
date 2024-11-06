@@ -92,10 +92,11 @@ header .inscription {
 section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 section .left-side {
-  margin: 80px;
+  margin-left: 80px;
 }
 section .left-side h1 {
   font-size: 70px;
@@ -111,6 +112,13 @@ section .left-side .bigtitle p {
   font-size: 18px;
   color: #323232;
   margin-top: 10px;
+}
+section .right-side img {
+  width: 100%;
+}
+section .right-side  {
+  display: flex;
+  align-items: center;
 }
 
 section .ourclients {

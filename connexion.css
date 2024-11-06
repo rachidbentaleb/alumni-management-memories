@@ -51,24 +51,32 @@ nav {
 section {
   margin-top: 10px;
   display: flex;
-  justify-content: space-between;
+  min-height: 535px;
 }
 
 .left-side {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  width: 30%;
+}
+.left-side img{
+  width: 100%;
 }
 .right-side {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  width: 30%;
+}
+.right-side {
+  width: 10%;
 }
 .middle-part {
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 60%;
 }
 
 h1 {

@@ -51,7 +51,8 @@ header {
     flex-direction: column;
     justify-content: space-between;
     width: 130px;
-    height: 695px;
+    height: 100%;
+    max-height: 100vh;
     align-items: center;
     box-shadow: -2px 4px 16px rgba(0, 0, 0, 0.29);
     border-right: 0.5px solid #bababa;
